@@ -13,12 +13,12 @@
 git init
 git remote add <origin_name> <origin_url>
 git add .
-git rm -r __Previews  
-git rm -r History 
-git rm -r Project\ Logs*/
-git rm -r Project\ Outputs*/
-git rm -r *.PcbDoc.htm
-git rm -r **/*.ldb
+git rm -r --cached __Previews  
+git rm -r --cached History 
+git rm -r --cached Project\ Logs*/
+git rm -r --cached Project\ Outputs*/
+git rm -r --cached *.PcbDoc.htm
+git rm -r --cached **/*.ldb
 ```
 6. Create .gitignore file and add the following code:
 ```bash
