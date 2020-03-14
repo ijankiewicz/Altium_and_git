@@ -11,6 +11,7 @@
 5. Providing that SSH configuraion is already done, close AD and put the following commands:
 ```bash
 git init
+git remote add <origin_name> <origin_url>
 git add .
 git rm -r __Previews  
 git rm -r History 
